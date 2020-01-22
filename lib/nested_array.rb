@@ -16,12 +16,12 @@ CONVENTIONAL_PRODUCE = [
   "Eggplant"
 ]
 
-def assembled_matrix
-  produce_storage = CONVENTIONAL_PRODUCE.push(ORGANIC_PRODUCE)
+def assembled_matrix(a1,a2)
+  produce_storage = a1.push(a2)
 end
 
-def sorted_matrix
-  produce_storage = CONVENTIONAL_PRODUCE.push(ORGANIC_PRODUCE)
+def sorted_matrix(a1,a2)
+  produce_storage = a1.push(a2)
   sorted_storage = produce_storage.sort
 end
 
